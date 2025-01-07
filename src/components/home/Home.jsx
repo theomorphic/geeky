@@ -4,6 +4,7 @@ import "./home.css"
 import Me from "../../assets/avatar-1.svg"
 import HeaderSocials from "./HeaderSocials";
 import ScrollDown from "./ScrollDown";
+import Shapes from "./Shapes";
 
 const Home = ()=>{
 	return(
@@ -20,6 +21,8 @@ const Home = ()=>{
 				<ScrollDown />
 			
 			</div>
+
+			<Shapes />
 		</section>
 	)
 }
