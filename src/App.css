@@ -2,4 +2,5 @@
 
 .main{
   margin-left: 110px;
+  user-select: none;
 }
