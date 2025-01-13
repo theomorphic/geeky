@@ -3,7 +3,8 @@
 .about__container{
 	grid-template-columns: 3fr 9fr;
 	column-gap: 1.875rem;
-	margin-left: 3rem;
+
+	margin-left: var(--indention);
 }
 
 .about__data{
@@ -90,7 +91,7 @@
 	margin-top: 4.35rem;
 
 	
-	margin-left: 3rem;
+	margin-left: var(--indention);
 
 }
 
