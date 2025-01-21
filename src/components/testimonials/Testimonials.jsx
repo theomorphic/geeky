@@ -17,8 +17,8 @@ const data = [
 	{
 	  id: 1,
 	  image: Image1,
-	  title: "John Doe",
-	  subtitle: "Product designer at Dribble",
+	  title: "Stan Lee",
+	  subtitle: "Product designer at Marvel",
 	  comment:
 	    "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
 	},
