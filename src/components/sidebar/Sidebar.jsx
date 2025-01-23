@@ -5,7 +5,8 @@ import Logo from "../../assets/logo.svg"
 
 const Sidebar = ()=>{
 	return(
-		<aside className="aside">
+		<>
+			<aside className="aside">
 			<a href="#home" className="nav__logo">
 				<img src={Logo} alt="Logo Image" />
 			</a>
@@ -63,7 +64,13 @@ const Sidebar = ()=>{
 					&copy; theomorphic 2025
 				</span>
 			</div>
-		</aside>
+			</aside>
+
+
+			<div className="nav__toggle">
+				<i className="icon-menu"></i>
+			</div>
+		</>
 	)
 }
 

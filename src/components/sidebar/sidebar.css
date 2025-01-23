@@ -38,3 +38,24 @@
 	transform: rotate(-180deg);
 	writing-mode: vertical-rl;
 }
+
+.nav__toggle{
+	display: flex;
+	position: fixed;
+	justify-content: center;
+	align-items: center;
+	top: 1.25rem;
+	left: 1.875rem;
+	cursor: pointer;
+	height: 40px;
+	width: 45px;
+	background-color: var(--body-color);
+	border: 1px solid #e8dfec;
+	z-index: 1;
+}
+
+@media screen and (max-width: 1024px){
+	.aside{
+	  left: -110px;
+	}
+}

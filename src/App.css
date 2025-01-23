@@ -4,3 +4,9 @@
   margin-left: 110px;
   user-select: none;
 }
+
+@media screen and (max-width: 1024px){
+  .main{
+    margin-left: 0;
+  }
+}
