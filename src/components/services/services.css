@@ -4,8 +4,6 @@
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 1.875rem;
 
-	/* margin-left: var(--indention); */
-
 }
 
 .services__card{
@@ -55,4 +53,19 @@
 
 .services__card:nth-child(2) .services__description{
 	color: var(--text-color);
+}
+
+@media screen and (max-width: 1024px){
+	.services__container{
+		grid-template-columns: repeat(2, 330px);
+		justify-content: center;
+		row-gap: 1.875rem;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.services__container{
+		grid-template-columns: 310px;
+
+	}
 }

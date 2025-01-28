@@ -13,6 +13,7 @@
 	padding: 2.5rem;
 	width: 110px;
 	min-height: 100vh;
+	transition: .3s;
 }
 
 .nav__list{
@@ -40,7 +41,7 @@
 }
 
 .nav__toggle{
-	display: flex;
+	display: none;
 	position: fixed;
 	justify-content: center;
 	align-items: center;
@@ -52,10 +53,23 @@
 	background-color: var(--body-color);
 	border: 1px solid #e8dfec;
 	z-index: 1;
+	transition: .3s;
 }
 
 @media screen and (max-width: 1024px){
 	.aside{
 	  left: -110px;
+	}
+
+	.nav__toggle{
+		display: flex;
+	}
+
+	.nav__toggle-open{
+		left: 140px;
+	}
+
+	.show-menu{
+		left: 0;
 	}
 }
