@@ -1,7 +1,7 @@
 
 import React from "react";
 import "./about.css"
-import avatar2 from "../../assets/avatar-2.svg";
+import avatar2 from "../../assets/pfp-2.webp";
 import AboutBox from "./AboutBox";
 
 const About = ()=>{
@@ -23,7 +23,7 @@ const About = ()=>{
 					<div className="skills__data">
 						<div className="skills_titles">
 							<h3 className="skills__name">Development</h3>
-							<span className="skills__number">90%</span>
+							<span className="skills__number">95%</span>
 						</div>
 
 						<div className="skills__bar">
@@ -45,7 +45,7 @@ const About = ()=>{
 					<div className="skills__data">
 						<div className="skills_titles">
 							<h3 className="skills__name">Photography</h3>
-							<span className="skills__number">60%</span>
+							<span className="skills__number">70%</span>
 						</div>
 
 						<div className="skills__bar">

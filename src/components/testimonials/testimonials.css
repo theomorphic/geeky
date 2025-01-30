@@ -11,9 +11,16 @@
 }
 
 .thumb{
-	height: 5.6rem;
-	width: 5.6rem;
+	height: 17.6rem;
+	width: 17.6rem;
 	margin: 0 auto;
+}
+
+.thumb__img{
+	height: 17.6rem;
+	width: 17.6rem;
+
+
 }
 
 .testimonials__title{

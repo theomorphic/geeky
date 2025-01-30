@@ -39,14 +39,24 @@
 	border-radius: 1.875rem;
 	padding: 0.625rem;
 	z-index: 1;
+
+}
+
+.contact__form-input::placeholder{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 1rem;
 }
 
 .contact__form-area{
 	height: 10.25rem;
+
 }
 
 .contact__form-area textarea{
 	resize: none;
+
 }
 
 @media screen and (max-width: 1024px){

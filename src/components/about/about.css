@@ -71,7 +71,7 @@
 }
 
 .development{
-	width: 90%;
+	width: 95%;
 	background-color: rgb(255, 209, 92);
 }
 
@@ -81,7 +81,7 @@
 }
 
 .photography{
-	width: 60%;
+	width: 70%;
 	background-color: rgb(108, 108, 299);
 }
 
@@ -126,6 +126,7 @@
 
 	.about__img{
 		justify-self: center;
+		height: 200px;
 	}
 
 	.about__box{

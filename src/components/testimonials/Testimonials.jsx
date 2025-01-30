@@ -2,8 +2,8 @@
 
 import React from "react";
 import "./testimonials.css";
-import Image1 from "../../assets/avatar-1.svg";
-import Image3 from "../../assets/avatar-3.svg";
+import Image1 from "../../assets/frank.webp";
+import Image3 from "../../assets/yarman.webp";
 
 import {Pagination} from 'swiper/modules';
 
@@ -16,19 +16,19 @@ import 'swiper/css/pagination';
 const data = [
 	{
 	  id: 1,
-	  image: Image1,
-	  title: "Stan Lee",
-	  subtitle: "Product designer at Marvel",
+	  image: Image3,
+	  title: "Yarman",
+	  subtitle: "Executive director at Good Drivers Company",
 	  comment:
-	    "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
+	    "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
 	},
 	{
 	  id: 2,
-	  image: Image3,
-	  title: "John Doe",
-	  subtitle: "Product designer at Dribble",
+	  image: Image1,
+	  title: "Frank MacDonald",
+	  subtitle: "Product manager at Amazon",
 	  comment:
-	    "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
+	    "I'm a big fan of this team. Y'all the best. Keep it up, folks. The project we've done together is top notch even for FFANG 👍",
 	},
       ];
 
@@ -49,7 +49,7 @@ const Testimonials = ()=>{
 					return(
 						<SwiperSlide className="testimonial__item" key={id}>
 							<div className="thumb">
-								<img src={image} />
+								<img src={image} className="thumb__img"/>
 							</div>
 
 							<h3 className="testimonials__title">
